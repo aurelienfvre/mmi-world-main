@@ -2,7 +2,7 @@
 
 #### Pour prendre le projet en zip cliquer sur le bouton vert "Code" et cliquer sur "Download ZIP" une fois le zip téléchargé le dézipper (ouvir le téléchargement normalement il y a un dossier dedans prendre le dossier qui est à l'interieur et le glisser sur le bureau par exemple) et ouvrir le dossier dans votre éditeur de code (ouvrir vscode et cliquer sur file puis new window et glisser le dossier qui est sur le bureau dans la fenêtre de vscode)
 
-### Ne pas faire si téléchargé en zip
+### Ne pas faire si vous avez téléchargé en zip
 
 ```bash
 git clone https://github.com/aurelienfvre/mmi-world-main.git tp_noter
