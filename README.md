@@ -20,7 +20,7 @@ npm install
 npm run dev
 ```
 
-## Pour faire un projet vue de zéro
+## Pour faire un projet vue de zéro voir séance 1
 
 ```bash
 npm init vue@latest
@@ -32,6 +32,12 @@ npm init vue@latest
 
 ```bash
 cd nom_du_projet
+```
+
+#### Installer vue router Voir séance 3
+
+```bash
+npm install vue-router@4
 ```
 
 ```bash
