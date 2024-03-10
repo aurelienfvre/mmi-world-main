@@ -48,6 +48,15 @@ npm install
 npm run dev
 ```
 
+### Pour avoir de l'aide avec chatgpt pour le code voici ce qu'il faut dire
+
+```bash
+Je travail sur un projet en vue.js 3 donc j'aimerais que tu m'aides en respectant les conventions et bonnes pratiques de vue.js 3
+
+Voici mon code :
+(mettre le code ici)
+```
+
 ## Pour publier son projet sur github avec ligne de commande
 
 ```bash
