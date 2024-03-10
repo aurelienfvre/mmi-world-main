@@ -1,13 +1,21 @@
-## Pour copier le projet le plus idéal pour le tpnoter je pense
+## Pour copier le projet le plus idéal pour le tpnoter je pense ou prendre le projet en zip (prendre en zip sera mieux)
+
+#### Pour prendre le projet en zip cliquer sur le bouton vert "Code" et cliquer sur "Download ZIP" une fois le zip téléchargé le dézipper (ouvir le téléchargement normalement il y a un dossier dedans prendre le dossier qui est à l'interieur et le glisser sur le bureau par exemple) et ouvrir le dossier dans votre éditeur de code (ouvrir vscode et cliquer sur file puis new window et glisser le dossier qui est sur le bureau dans la fenêtre de vscode)
+
+### Ne pas faire si téléchargé en zip
 
 ```bash
 git clone https://github.com/aurelienfvre/mmi-world-main.git tp_noter
 ```
 
-## Pour installer les dépendances
+## Faire dans les deux cas
+
+### Pour installer les dépendances
 
 ```bash
 cd tp_noter
+ou
+cd mmi-world-main
 ```
 
 ```bash
