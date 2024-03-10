@@ -94,3 +94,5 @@ git push -u origin main
 ## Pour publier son projet sur github avec interface graphique
 
 ### Cliquer sur le troisième bouton en haut à gauche appeler "source control" et cliquer sur "publish to github" et choisir public ou privé et cliquer sur "publish repository" et voilà votre projet est sur github.
+
+## Une fois le tp terminé supprimer le contenu du readme (ce fichier) en faisant ctrl + a et supprimer
