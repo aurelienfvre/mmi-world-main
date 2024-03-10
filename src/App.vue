@@ -1,5 +1,4 @@
-<script setup>
-</script>
+<script setup></script>
 
 <template>
   <nav>
@@ -8,10 +7,9 @@
     <router-link class="nav-link" :to="{ name: 'Pays' }">Pays</router-link>
     <router-link class="nav-link" :to="{ name: 'Recherche' }">Recherche</router-link>
     <router-link to="/fournisseurs">Fournisseurs</router-link>
+    <router-link to="/pokedex">Pokedex</router-link>
   </nav>
   <router-view />
-
-
 </template>
 
 <style scoped>
