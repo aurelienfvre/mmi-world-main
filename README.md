@@ -53,6 +53,10 @@ npm install
 ```
 
 ```bash
+npm install axios
+```
+
+```bash
 npm run dev
 ```
 
@@ -63,6 +67,35 @@ Je travail sur un projet en vue.js 3 donc j'aimerais que tu m'aides en respectan
 
 Voici mon code :
 (mettre le code ici)
+```
+
+#### Autre exemple
+
+```bash
+Je dois utiliser cette api (mettre le lien donner dans le tp ) et voici mon code actuel car j'ai une autre api à la place pour l'instant :
+<script setup>
+import { ref, onMounted } from 'vue'
+import axios from 'axios'
+
+const data = ref()
+const page = ref(1)
+const limit = ref(10)
+
+async function getPokemonData() {
+  try {
+    if (page.value < 1) {
+      page.value = 1
+    }
+    const response = await axios.get(`https://pokeapi.co/api/v2/pokemon?limit=${limit.value}&offset=${(page.value - 1) * limit.value}`)
+    data.value = response.data.results
+    for (let pokemon of data.value) {
+      const details = await axios.get(pokemon.url)
+      pokemon.details = details.data
+    }
+  } catch (err) {
+    console.error('Une erreur est survenue lors de la récupération des données de l\'API PokeAPI.', err)
+  }
+}
 ```
 
 ## Pour publier son projet sur github avec ligne de commande
