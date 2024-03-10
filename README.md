@@ -1,35 +1,73 @@
-# mmi-world
+## Pour copier le projet le plus idéal pour le tpnoter je pense
 
-This template should help get you started developing with Vue 3 in Vite.
+```bash
+git clone https://github.com/aurelienfvre/mmi-world-main.git tp_noter
+```
 
-## Recommended IDE Setup
+## Pour installer les dépendances
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+```bash
+cd tp_noter
+```
 
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
+```bash
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+## Pour lancer le projet
 
-```sh
+```bash
 npm run dev
 ```
 
-### Compile and Minify for Production
+## Pour faire un projet vue de zéro
 
-```sh
-npm run build
+```bash
+npm init vue@latest
 ```
 
-### Lint with [ESLint](https://eslint.org/)
+## Répondez aux différentes questions. Par défaut mettez toutes les questions sur NON, sauf "Add Vue Router for single Page Application development" que vous pouvez mettre sur yes.
 
-```sh
-npm run lint
+## Faire ces commandes pour installer les dépendances et lancer le projet
+
+```bash
+cd nom_du_projet
 ```
+
+```bash
+npm install
+```
+
+```bash
+npm run dev
+```
+
+## Pour publier son projet sur github avec ligne de commande
+
+```bash
+git init
+```
+
+```bash
+git add .
+```
+
+```bash
+git commit -m "first commit"
+```
+
+```bash
+git branch -M main
+```
+
+```bash
+git remote add origin
+```
+
+```bash
+git push -u origin main
+```
+
+## Pour publier son projet sur github avec interface graphique
+
+### Cliquer sur le troisième bouton en haut à gauche appeler "source control" et cliquer sur "publish to github" et choisir public ou privé et cliquer sur "publish repository" et voilà votre projet est sur github.
