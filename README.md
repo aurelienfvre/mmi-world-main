@@ -60,6 +60,45 @@ npm install axios
 npm run dev
 ```
 
+### Les fichiers importants sont :
+
+- src/App.vue
+- src/components/les fichiers dedans
+- src/router/index.js
+- src/views/les fichiers dedans
+
+Dans les fichiers dans views on fait appel aux components en faisant :
+dans la section script
+
+```bash
+import NomDuComponent from '../components/NomDuComponent.vue'
+```
+
+dans la section template:
+
+```bash
+<template>
+code ...
+<NomDuComponent />
+</template>
+```
+
+dans le dossier router/index.js on fait appel aux views en faisant :
+
+```bash
+  ,
+    {
+      path: '/fournisseurs',
+      name: 'Fournisseurs',
+      component: () => import('../views/Fournisseurs.vue')
+    },
+    {
+      path: '/nom_de_la_page',
+      name: 'NomDeLaPage',
+      component: () => import('../views/nomdufichier.vue')
+    }
+```
+
 ### Pour avoir de l'aide avec chatgpt pour le code voici ce qu'il faut dire
 
 ```bash
